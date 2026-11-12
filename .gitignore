@@ -1,0 +1,18 @@
+# 本机配置与运行产物（含密钥/日志，禁止入库）
+config.json
+router.log
+router.log.*
+router-console.log
+*.bak-*
+__pycache__/
+dist/
+pack/_*
+
+# 开发期个人启动脚本（含真实密钥，发行包用安装器内嵌的 launcher.bat）
+start-router.bat
+deploy-router.ps1
+run-router-hidden.bat
+deploy-router.bat
+
+# 内网发布脚本（含内网服务地址，不入公开仓库）
+tools/
